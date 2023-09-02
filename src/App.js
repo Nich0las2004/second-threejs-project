@@ -1,11 +1,21 @@
 import { Canvas } from "@react-three/fiber";
 
-import Sphere from "./components/Sphere";
+import Dodecahedron from "./components/Dodecahedron";
+import Ring from "./components/Ring";
+import TorusKnot from "./components/TorusKnot";
 
 const App = () => {
   return (
-    <Canvas>
-      <Sphere />
+    <Canvas
+      id="canvas-container"
+      style={{
+        width: "100vw",
+        height: "100vh",
+      }}
+    >
+      <TorusKnot />
+      <Dodecahedron />
+      <Ring />
     </Canvas>
   );
 };
