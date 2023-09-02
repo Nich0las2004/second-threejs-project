@@ -11,7 +11,8 @@ const TorusKnot = () => {
   });
 
   return (
-    <mesh scale={[1, 1, 1]} ref={torusknowRef} position={[-3, 0, 0]}>
+    <mesh scale={[1, 1, 1]} ref={torusknowRef} position={[-3, 0, -1]}>
+      <meshBasicMaterial wireframe={true} flatShading={false} color="blue" />
       <torusKnotGeometry />
     </mesh>
   );

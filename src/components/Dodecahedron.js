@@ -12,10 +12,10 @@ const Dodecahedron = () => {
   });
 
   return (
-    <mesh scale={[1, 1, 1]} position={[3, 0, 0]} ref={dodecahedronRef}>
+    <mesh scale={[1, 1, 1]} position={[3, 0, -1]} ref={dodecahedronRef}>
       <ambientLight />
       <dodecahedronGeometry />
-      <meshLambertMaterial color="white" />
+      <meshLambertMaterial color="red" wireframe={true} />
     </mesh>
   );
 };
