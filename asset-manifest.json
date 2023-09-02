@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/second-threejs-project/static/css/main.32919279.css",
+    "main.js": "/second-threejs-project/static/js/main.5a1b9cc8.js",
+    "index.html": "/second-threejs-project/index.html",
+    "main.32919279.css.map": "/second-threejs-project/static/css/main.32919279.css.map",
+    "main.5a1b9cc8.js.map": "/second-threejs-project/static/js/main.5a1b9cc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32919279.css",
+    "static/js/main.5a1b9cc8.js"
+  ]
+}
