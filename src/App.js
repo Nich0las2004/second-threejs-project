@@ -5,6 +5,9 @@ import Ring from "./components/Ring";
 import TorusKnot from "./components/TorusKnot";
 
 const App = () => {
+
+  // camera.current.position.set(0, 0, 5);
+
   return (
     <Canvas
       id="canvas-container"
