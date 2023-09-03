@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live
 
-In the project directory, you can run:
+Live: https://nich0las2004.github.io/second-threejs-project/
 
 ### `npm start`
 
